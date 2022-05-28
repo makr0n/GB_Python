@@ -5,8 +5,7 @@
 
 
 def geometric_progression(start, multiplier, sequencelength):
-
-    sequence = [start*multiplier**(i-1) for i in range(1, sequencelength + 1)]
+    sequence = [start * multiplier ** (i - 1) for i in range(0, sequencelength)]
     return sequence
 
 
