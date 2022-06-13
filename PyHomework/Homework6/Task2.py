@@ -47,5 +47,5 @@ def rl_decoding(encoded_data, decoded_data):
 
 
 
-rl_encoding('Text_in', 'Text_out')
-rl_decoding('Text_out', 'Text_dec')
+rl_encoding('Text_origin', 'Text_encoded')
+rl_decoding('Text_encoded', 'Text_decoded')
